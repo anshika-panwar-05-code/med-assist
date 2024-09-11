@@ -1,0 +1,553 @@
+@font-face {
+    font-family: 'head';
+    src: url('./Heading-Now-Variable.ttf');
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy', sans-serif;
+    background-color: #f7f7f7;
+}
+
+#navbar {
+    background-color: #fff;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+
+#logo img {
+    width: 150px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+  
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: a;
+}
+
+#main {
+    padding: 50px;
+    text-align: center;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: a;
+}
+
+#hero-text {
+    max-width: 50%;
+    text-align: left;
+    font-family: a;
+}
+
+#hero-text h1 {
+    font-size: 0.5rem;
+    margin-bottom: 20px;
+    font-family: a;
+}
+
+#hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: a;
+}
+
+#hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: a;
+}
+
+#hero-text {
+    max-width: 50%;
+    text-align: left;
+    font-family: a;
+}
+
+#hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: a;
+}
+
+#hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: a;
+}
+
+#hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+#cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    background-color: rgb(117, 187, 211);
+    font-family: a;
+    aspect-ratio: 3/2;
+}
+
+.card {
+    width: calc(33.33% - 40px);
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#card1 {
+    background-image: url('https://www.eliscription.com/wp-content/uploads/2020/09/evaluator.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+#card1 h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+#card1 p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+
+
+}
+#card1 a{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#card2 {
+   
+    background-image: url('https://assets-global.website-files.com/5fac161927bf86485ba43fd0/64705e36d6c173f75626cf6b_Blog-Cover-2022_02_How-to-Transcribe-Audio-to-Text-(Automatically-_-For-Free).jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+#card1 h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+#card2 h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+#card2 p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+
+
+
+}
+#card2 a{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#card3 {
+   
+    background-image: url('https://i.ytimg.com/vi/xgBZVkn8TC0/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+#card3 h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+#card3 p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+
+
+
+}
+#card3 a{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#card4 {
+   
+    background-image: url('https://revmaxx.co/wp-content/uploads/2024/02/medical-speech-to-text-software-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+#card4 h4{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+#card4 p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+
+
+
+}
+#card4 a{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+    
+.overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h4 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.overlay p {
+    font-size: 1rem;
+}
+
+.overlay a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#slogan {
+    text-align: center;
+    padding: 50px;
+    font-family: a;
+    
+}
+
+#slogan h1 {
+    font-size: 2rem;
+    font-family: 'head', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: rgb(117, 187, 211);
+    font-family: a;
+}
+.container a{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: a;
+
+
+}
+.container1{
+    background-color: rgb(117, 187, 211);
+}
+.container1 a{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container p {
+    font-size: 20px;
+    margin-top: 25px;
+
+}
+.container1 p {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: a;
+
+}
+.container2 p {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: a;
+
+}
+.container2 h1 {
+   justify-content: center;
+   text-align: center;
+
+}
+
+.container1,
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.div {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    font-family: a;
+}
+
+#explore {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    font-family: a;
+}
+
+#explore img {
+    width: 50%;
+    max-width: 500px;
+    height: 70vh;
+    border-radius: 10px;
+    margin-right:30px;
+}
+
+#explore-text {
+    flex-grow: 1;
+    font-family: a;
+}
+
+#explore-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+button a {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: a;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0 20px;
+    background-color:  rgb(117, 187, 211);
+    color: #000;
+    font-size: 14px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+
+.footer-col-1 {
+    flex-basis: 10%;
+    margin-left: 50px;
+}
+.footer-col-1 h3 {
+    margin-left: 30px;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    text-align: center;
+    margin-right: 30px;
+    flex-basis: 12%;
+    color: #000;
+}
+.footer-col-3 h3 {
+    margin-left: 30px;
+}
+.footer-col-4 h3 a{
+    color: #000;
+    text-decoration: none;
+}
+.footer-col-4 p a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+    color: #000;
+}
+
+ul li {
+    line-height: 1.5;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    margin-right: 25%;
+}

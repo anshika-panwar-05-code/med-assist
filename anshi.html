@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+</head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+    perspective: 500px;
+
+}
+
+.carousel {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    transform-style: preserve-3d;
+    animation: rotate 10s linear infinite;
+}
+
+.carousel div {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+}
+
+.carousel .image.one {
+    background-image: url('https://img.freepik.com/free-photo/experienced-doctor-discussing-with-patient-his-private-medical-file-young-man-checking-up-with-his-md-consulting-about-way-his-health-treatment-health-insurance_657921-859.jpg?t=st=1712826729~exp=1712830329~hmac=160ed22a6469092e18e33ae0ebfd9e068ae2cb439570c49b0b6a635ecb2e16b8&w=826');
+    left: -100px;
+    top: 50px;
+    transform-origin: 50% 50%;
+    transform: rotateY(0deg);
+}
+
+.carousel .image.two {
+    background-image: url('https://img.freepik.com/free-photo/doctor-doing-their-work-pediatrics-office_23-2149224139.jpg?t=st=1712826756~exp=1712830356~hmac=f782a3ecb8a3b372fe9638d14ab79edfc4b3a43d1a7186236c1a946761f4177b&w=900');
+    left: 100px;
+    top: 50px;
+    transform-origin: 50% 50%;
+    transform: rotateY(60deg);
+}
+
+.carousel .image.three {
+    background-image: url('https://img.freepik.com/free-photo/doctor-offering-medical-teleconsultation_23-2149328989.jpg?t=st=1712826798~exp=1712830398~hmac=4881319d1abbbb34148b68c56093fc3275562f70d21af1643797de3fca6ea4a6&w=900');
+    left: 200px;
+    top: 50px;
+    transform-origin: 50% 50%;
+    transform: rotateY(120deg);
+}
+
+.carousel .image.four {
+    background-image: url('https://img.freepik.com/premium-photo/video-call-online-meeting-corporate-telecommuting-male-business-partners-discussing-project-working-using-tablet-screen-digital-office_279525-20495.jpg?w=900');
+    left: 300px;
+    top: 50px;
+    transform-origin: 50% 50%;
+    transform: rotateY(180deg);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateX(10deg) rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateX(0deg) rotateY(360deg);
+    }
+}
+</style>
+<body>
+  <div class="carousel">
+
+    <div class="image one">
+    </div>
+    <div class="image two"></div>
+    <div class="image three"></div>
+    <div class="image four"></div>
+  </div>
+
+</body>
+</html>

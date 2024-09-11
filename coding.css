@@ -1,0 +1,464 @@
+@font-face {
+    font-family: 'head';
+    src: url('./Heading-Now-Variable.ttf');
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy', sans-serif;
+    background-color: #f7f7f7;
+}
+
+#navbar {
+    background-color: #fff;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+
+#logo img {
+    width: 150px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+  
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    background-color: rgb(117, 187, 211);
+    font-family: a;
+}
+
+.card {
+    width: calc(33.33% - 40px);
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: a;
+
+}
+
+#card1 {
+    background-image: url('https://www.shutterstock.com/image-vector/concept-computer-programming-developing-software-600nw-2149658841.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+   
+}
+
+#card1 h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+#card1 p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+
+
+}
+
+#card1 a {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#card2 {
+
+    background-image: url('https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/05/16222459/3D-Animation.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+#card1 h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+#card2 h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+#card2 p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+
+
+
+}
+
+#card2 a {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#card3 {
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfutjpwiuZtqGfTRy-Tjy_c14sDgG0dQz9gMSYlHNlcQ&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+#card3 h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+#card3 p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+
+
+
+}
+
+#card3 a {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#card4 {
+
+    background-image: url('https://media.licdn.com/dms/image/D5610AQFDyVosf4fclQ/image-shrink_800/0/1702560625265?e=2147483647&v=beta&t=P-ogIdgkw_lrG2pi5mPZlgIZPp-gnqFqyoxd47dJ1ac');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+#card4 h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+#card4 p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+
+
+
+}
+
+#card4 a {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h4 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.overlay p {
+    font-size: 1rem;
+}
+
+.overlay a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#main {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    font-family: a;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: a;
+}
+
+#hero-text {
+    max-width: 50%;
+    text-align: left;
+    font-family: a;
+}
+
+#hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: a;
+
+}
+
+#hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: a;
+}
+
+#hero-image img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+/* #hero-text button a{
+    color: #fff;
+    text-decoration: none;
+} */
+
+
+#hero1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://t4.ftcdn.net/jpg/04/24/30/93/360_F_424309320_UkOxg2z3sq7yXwGnWCO6xBXkRI4byhnI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero-text1 {
+    max-width: 50%;
+    text-align: left;
+    font-family: a;
+}
+
+#hero-text1 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: a;
+}
+
+#hero-text1 p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: a;
+}
+
+
+
+/* .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0 20px;
+    background-color:  rgb(117, 187, 211);
+    color: #000;
+    font-size: 14px;
+} */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0 20px;
+    background-color:  rgb(117, 187, 211);
+    color: #000;
+    font-size: 14px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+
+.footer-col-1 {
+    flex-basis: 10%;
+    margin-left: 50px;
+}
+.footer-col-1 h3 {
+    margin-left: 30px;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    text-align: center;
+    margin-right: 30px;
+    flex-basis: 12%;
+    color: #000;
+}
+.footer-col-3 h3 {
+    margin-left: 30px;
+}
+.footer-col-4 h3 a{
+    color: #000;
+    text-decoration: none;
+}
+.footer-col-4 p a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+    color: #000;
+}
+
+ul li {
+    line-height: 1.5;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    margin-right: 25%;
+}
